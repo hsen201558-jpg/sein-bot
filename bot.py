@@ -375,6 +375,9 @@ async def run_sein():
 
         await application.shutdown()
 
-await run_sein()
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(run_sein())
+
 
 
